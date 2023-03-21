@@ -1,0 +1,56 @@
+body{
+    background-color: #FAFAFA;
+}
+.part{
+    /*text-decoration: underline;*/
+    text-decoration-color: blue;
+}
+
+#home{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+#me{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.bullet{
+    list-style-type: none;
+    background-color: #FAFAFA
+}
+.social{
+    display: inline;
+    cursor:pointer;
+    text-decoration: none;
+}
+.carousel{
+
+}
+
+#certificates{
+
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    scroll-padding: 1rem 0 0 0;
+}
+
+different{
+    background: linear-gradient(145deg, rgb(195, 240, 200), rgb(80, 155, 245));
+}
+section{
+    scroll-behavior: smooth;
+    scroll-padding: 1rem 0 0 0;
+    padding-top: 152px;
+      margin-top: -152px;
+}
+html{
+    scroll-behavior: smooth;
+}
